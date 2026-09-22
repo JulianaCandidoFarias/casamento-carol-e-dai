@@ -12,7 +12,7 @@ function MainSection({ children, name }: MainSectionProps) {
       <div className="flex flex-col items-center w-90/100">
         <AppNavigation />
 
-        <div className="bg-[#73B48C] m-5 place-self-stretch h-full rounded-3xl shadow-xl/30 flex flex-col">
+        <div className="bg-[#73B48C] m-2 place-self-stretch h-full rounded-3xl shadow-xl/30 flex flex-col">
           <p className=" text-4xl m-2 text-white text-shadow-lg font-oleo-script text-center">
             {name}
           </p>
