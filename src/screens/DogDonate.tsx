@@ -1,6 +1,7 @@
 import Background from "../components/Background";
 import FlowersShell from "../components/FlowersShell";
 import MainSection from "../components/MainSection";
+import doguinhos from "/src/assets/dog/doguinhos.png";
 
 function DogDonate() {
   return (
@@ -24,7 +25,7 @@ function DogDonate() {
           </div>
 
           <div className="flex flex-col items-center mt-5 mb-5">
-            <img className="w-90/100" src="src/assets/dog/doguinhos.png" />
+            <img className="w-90/100" src={doguinhos} />
           </div>
 
           <p className="text-shadow-lg font-bellota text-center text-xl mb-2 text-emerald-800">
