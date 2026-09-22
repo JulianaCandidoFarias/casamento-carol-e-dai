@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-oleo-script: "Oleo Script Swash Caps", system-ui;
+  --font-bellota: "Bellota", system-ui;
+}
